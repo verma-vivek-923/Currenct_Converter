@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-cont">
+        <h2>Currency Converter</h2>
+        <div class="head">
+            <label>Enter Amount</label>
+            <input type="text" value="1">
+        </div>
+
+        <form action="#">
+            <div class="drop-down">
+            <div class="all from">
+                <p>From</p>
+                <div class="select-cont">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="#">
+                    <select name="from">
+                        <!-- <option >INR</option>
+                        <option selected>USD</option> -->
+                    </select>
+                </div>
+            </div>
+            <button class="change">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-40q-112 0-206-51T120-227v107H40v-240h240v80h-99q48 72 126.5 116T480-120q75 0 140.5-28.5t114-77q48.5-48.5 77-114T840-480h80q0 91-34.5 171T791-169q-60 60-140 94.5T480-40Zm-36-160v-52q-47-11-76.5-40.5T324-370l66-26q12 41 37.5 61.5T486-314q33 0 56.5-15.5T566-378q0-29-24.5-47T454-466q-59-21-86.5-50T340-592q0-41 28.5-74.5T446-710v-50h70v50q36 3 65.5 29t40.5 61l-64 26q-8-23-26-38.5T482-648q-35 0-53.5 15T410-592q0 26 23 41t83 35q72 26 96 61t24 77q0 29-10 51t-26.5 37.5Q583-274 561-264.5T514-250v50h-70ZM40-480q0-91 34.5-171T169-791q60-60 140-94.5T480-920q112 0 206 51t154 136v-107h80v240H680v-80h99q-48-72-126.5-116T480-840q-75 0-140.5 28.5t-114 77q-48.5 48.5-77 114T120-480H40Z"/></svg>
+            </button>
+            
+            <div class="all to">
+                <p>To</p>
+                <div class="select-cont">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="#">
+                    <select name="to">
+                        <!-- <option selected>INR</option>
+                        <option>USD</option> -->
+                    </select>
+                </div>
+            </div>
+            </div>
+            <div class="msg">
+                <p>1 <span>USD</span>  =  83 <span>INR</span></p>
+            </div>
+            <button class="submit">Get Exchange Rate</button>
+        </form>
+    </div>
+
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
